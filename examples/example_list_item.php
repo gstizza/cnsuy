@@ -27,15 +27,15 @@ if($_GET['code']) {
 
 	// We construct the item to POST
 	$item = array(
-		"title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLB257111",
-        "price" => 10,
-        "currency_id" => "BRL",
+		"title" => "Item de Prueba. Por favor no Comprar",
+        "category_id" => "MLU1648",
+        "price" => 1000,
+        "currency_id" => "UYU",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
         "condition" => "new",
-        "description" => "Item de Teste. Mercado Livre's PHP SDK.",
+        "description" => "Item de Prueba. Por favor no Comprar",
         "video_id" => "Q6dsRpVyyWs",
         "warranty" => "12 month",
         "pictures" => array(
