@@ -2,7 +2,7 @@
 session_start();
 require '../Meli/meli.php';
 require '../configApp.php';
-$meli = new Meli($appId, $secretKey);
+$meli = new Meli(6593815528522837, sVVkKCTbEI3qyZy0b2hZZz9D7BQIBP45);
 if($_GET['code']) {
 	// If the code was in get parameter we authorize
 	$user = $meli->authorize($_GET['code'], $redirectURI);
